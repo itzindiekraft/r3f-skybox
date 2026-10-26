@@ -11,3 +11,49 @@ body,
   height: 100vh;
   background: #252525;
 }
+
+.webgl-fallback {
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.webgl-fallback p {
+  max-width: 36rem;
+  line-height: 1.5;
+}
+
+.skybox-preview {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.skybox-preview__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.skybox-preview__notice {
+  position: relative;
+  max-width: 38rem;
+  margin: 1.5rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgb(0 0 0 / 70%);
+  line-height: 1.5;
+  text-align: center;
+}

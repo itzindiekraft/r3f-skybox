@@ -1,7 +1,7 @@
 import "./App.css";
 import SkyBox from "./components/SkyBox";
 
-let App = () => {
+const App = () => {
   return (
     <>
       <SkyBox />
